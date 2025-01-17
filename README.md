@@ -1,8 +1,9 @@
 # Project Setup Instructions - Plague Runner 🏃
-Link to download .zip file: [PlagueRunner_HarshitaJain]()
+Link to download .zip file: [Plague Runner](https://drive.google.com/file/d/1Fl7VifnTZY3pl28O1tYupwYg8J6-xPBT/view?usp=sharing)
 
-The .zip file called PlagueRunner_HarshitaJain contains the following contents:
+The .zip file called PlagueRunner contains the following contents:
 
+```plaintext
 Plague Runner/
 ├── Assets/
 ├── Library/
@@ -18,6 +19,7 @@ Plague Runner/
 ├── Temp/
 └── UserSettings/
 
+```
 ## Instructions to run the build
 
 - To run the game on macOS, go to **Plague Runner/** -> **PlagueRunnermacOS**. This would launch the game on your mac in full screen. To quit, press Cmd + Q.
