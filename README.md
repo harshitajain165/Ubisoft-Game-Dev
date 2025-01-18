@@ -1,6 +1,9 @@
 # Project Setup Instructions - Plague Runner 🏃
 Link to download .zip file: [Plague Runner](https://drive.google.com/file/d/1Fl7VifnTZY3pl28O1tYupwYg8J6-xPBT/view?usp=sharing)
 
+![ScreenRecording2025-01-17at10 38 56PMonline-video-cutter com-ezgif com-video-to-gif-converter-2-2](https://github.com/user-attachments/assets/136d253b-cccc-4d71-8260-d12f96f50953)
+
+
 The .zip file called PlagueRunner contains the following contents:
 
 ```plaintext
