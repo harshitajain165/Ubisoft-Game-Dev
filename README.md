@@ -1,5 +1,5 @@
 # Project Setup Instructions - Plague Runner 🏃
-Link to download .zip file: [Plague Runner](https://drive.google.com/file/d/1Fl7VifnTZY3pl28O1tYupwYg8J6-xPBT/view?usp=sharing)
+Link to download .zip file: [Plague Runner](https://drive.google.com/file/d/1CLqVfUOzMj1hZ4rIoYbXCootxKVOez36/view?usp=sharing)
 
 ![ScreenRecording2025-01-17at10 38 56PMonline-video-cutter com-ezgif com-video-to-gif-converter-2-2](https://github.com/user-attachments/assets/136d253b-cccc-4d71-8260-d12f96f50953)
 
@@ -33,7 +33,7 @@ Plague Runner/
 - Unzip the folder and place it in your desired directory.
 - Open Unity Hub.
 - Click Add or Open, navigate to the unzipped folder (Plague Runner), and select it.
-- In the Unity Editor, go to Assets/Assets/Scenes and double-click the main scene file (SampleScene.unity).
+- In the Unity Editor, go to Assets/Assets/Scenes and double-click the main scene file (MainScene.unity).
 - Press the Play button to test the game in the Editor.
 - Go to File > Build Settings if you need to modify platform settings or rebuild the project.
 
@@ -43,7 +43,7 @@ Plague Runner/
 - There is a cool-off period of 15 seconds after every dash. 
 - The goal is to collect all 5 collectibles in the level within time and without losing all three lives. However, the more collectibles you have, the worse it gets!
 
-### Technical Progress
+### 1st Submission Progress
 
 Link to [Project Overview Document](https://docs.google.com/document/d/1H-TXiy2zg03kOYntf0Y8lzOBSOI3wmkT3q0xkXuAJsc/edit?usp=sharing)
 - The scripts used in the project can be accessed by the path: Plague Runner/Assets/Assets/Scripts
@@ -60,7 +60,17 @@ Link to [Project Overview Document](https://docs.google.com/document/d/1H-TXiy2z
   - Collected items are counted (collectedCount), and the UI is updated.
   - Stat Reduction: Collecting items reduces movement speed and jump force, respecting minimum thresholds (minMoveSpeed and minJumpForce).
   - Fade Animation: Collected item notifications fade out gradually using a coroutine and CanvasGroup.alpha.
-- Win Condition: If all collectibles are gathered, the win indication is shown, and the game timer stops 
+- Win Condition: If all collectibles are gathered, the win indication is shown, and the game timer stops
+
+### Final Submission Progress
+
+- Introduced dynamic and predictive firing for enemies. Enemy projectiles now track the player's position from the last frame, making dodging more challenging.
+- Increased overall level length to improve gameplay duration.
+- Made platforming mechanics more complex to enhance player engagement and difficulty.
+- Implemented a UI screen to enhance user experience and navigation and improved visual feedback for in-game events.
+- Added sound effects for better immersion.
+
+_To get a deeper look at the code, navigate to the **Scrips folder** inside **Assets folder**._ 
 
 
 
